@@ -34,3 +34,13 @@ list2 = list1.copy()
 list1[3] = 42
 print(f'list1:\t{list1}')
 print(f'list2:\t{list2}')
+
+data = ['a', 'b', 'c']
+data2 = data[:]
+
+print(data)
+print(data2)
+data[1] = 'z'
+
+print(data)
+print(data2)

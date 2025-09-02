@@ -1,0 +1,8 @@
+INFO: Server started at 2025-09-01 10:00:00
+INFO: User Alice logged in
+ERROR: Database connection failed
+WARN: Low disk space on /dev/sda1
+INFO: Scheduled task completed
+ERROR: Failed to send email notification
+INFO: User Bob logged out
+ERROR: Permission denied while accessing /etc/config

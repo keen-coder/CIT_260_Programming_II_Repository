@@ -4,6 +4,9 @@
 days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday',
 'Thursday', 'Friday', 'Saturday']
 
+days_one = days[1:2]
+print(days_one)
+
 # Get the days from Monday to Thursday
 days_slice = days[1:5]
 print(days_slice)
@@ -25,10 +28,16 @@ print(days_slice)
 days_copy = days[:]
 print(days_copy)
 
+print(f'days =\t\t{days}')
+print(f'days_copy =\t{days_copy}')
+days_copy[3] = 78
+print(f'days =\t\t{days}')
+print(f'days_copy =\t{days_copy}')
+
 # Negative values can be used to get positions relative to the end of the list
 days_slice = days[-5:-1]
 print(days_slice)
 
 # You can get a reverse of a list using the following:
-days_reverse = days[::-1]
+days_reverse = days[-1:-4:-1]
 print(days_reverse)
