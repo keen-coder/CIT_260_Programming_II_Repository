@@ -1,5 +1,5 @@
 '''
-Programming Assignment 3
+Programming Assignment 2
 
 <Your First and last name>
 <Your Class and section number>
