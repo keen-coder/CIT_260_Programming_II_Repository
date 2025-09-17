@@ -1,3 +1,8 @@
+tuple1 = (1,)
+print(type(tuple1))
+
+print(help(tuple))
+
 # A good use for tuples, is when you want to return multiple values
 # from a function.
 # You get an immutable sequence back from your function that you can be
@@ -10,7 +15,7 @@ def min_max(values):
 nums = [10, 3, 7, 42, 5]
 result = min_max(nums)
 print(result)        # (3, 42)
-low, high = result   # tuple unpacking
+low, high= result   # tuple unpacking
 print(low, high)     # 3 42
 
 # Tuples are great for coordinates

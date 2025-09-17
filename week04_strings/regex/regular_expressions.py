@@ -30,7 +30,7 @@ print()
 phone_numbers = []
 regex1 = r'^\([0-9]{3}\)[0-9]{3}-[0-9]{4}$' # matches (xxx)xxx-xxxx
 regex2 = r'^[0-9]{3}[0-9]{3}[0-9]{4}$'      # matches xxxxxxxxx
-regex3 = r'^[0-9]{3}-[0-9]{3}-[0-9]{4}$'    # matches xxx-xxx-xxx
+regex3 = r'^[0-9]{3}-[0-9]{3}-[0-9]{4}$'    # matches xxx-xxx-xxxx
 
 with open('week04_strings/regex/phone_numbers.txt', 'r') as phone_file:
     phone_numbers = [number.strip() for number in phone_file.readlines()]

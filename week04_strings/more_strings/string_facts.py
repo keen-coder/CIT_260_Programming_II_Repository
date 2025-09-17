@@ -117,7 +117,7 @@ right_justified = s.rjust(15, '.') # '......   banana'
 s = 'apple,banana,cherry'
 
 split_list = s.split(',')                   # ['apple', 'banana', 'cherry']
-rsplit_list = s.rsplit(',', 1)              # ['apple,banana', 'cherry']
+rsplit_list = s.rsplit(',', 1)              # ['apple, banana', 'cherry']
 lines = 'line1\nline2\nline3'.splitlines()  # ['line1', 'line2', 'line3']
 joined = '-'.join(['a', 'b', 'c'])          # 'a-b-c'
 #==============================================================================
