@@ -1,3 +1,7 @@
 .venv/
 acts/
 pas/
+class_programs/
+autograder/
+grading/
+__pycache__/
