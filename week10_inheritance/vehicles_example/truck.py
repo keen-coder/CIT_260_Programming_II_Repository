@@ -11,7 +11,7 @@ class Truck(Automobile):
         # Call the superclass's __init__ method and pass
         # the required arguments. Note that we also have
         # to pass self as an argument.
-        Automobile.__init__(self, make, model, mileage, price)
+        super().__init__(self, make, model, mileage, price)
         
         # Initialize the __drive_type attribute.
         self.__drive_type = drive_type
