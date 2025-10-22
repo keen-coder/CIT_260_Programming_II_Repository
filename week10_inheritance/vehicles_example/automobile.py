@@ -41,3 +41,12 @@ class Automobile:
 
     def get_price(self):
         return self.__price
+    
+    def __str__(self):
+        output = ''
+        output += f'{self.__make}\n'
+        output += f'{self.__model}\n'
+        output += f'{self.__mileage}\n'
+        output += f'{self.__price}'
+
+        return output

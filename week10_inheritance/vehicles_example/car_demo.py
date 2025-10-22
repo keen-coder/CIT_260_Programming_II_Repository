@@ -15,6 +15,8 @@ def main():
     print('Price:', used_car.get_price())
     print('Number of doors:', used_car.get_doors())
 
+    print(used_car)
+
 # Call the main function.
 if __name__ == '__main__':
       main()

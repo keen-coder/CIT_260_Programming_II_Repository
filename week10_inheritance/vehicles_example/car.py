@@ -9,9 +9,9 @@ class Car(Automobile):
     
     def __init__(self, make, model, mileage, price, doors):
         # Call the superclass's __init__ method and pass
-        # the required arguments. Note that we also have
+        # the required arguments. Note that we DO NOT have
         # to pass self as an argument.
-        super().__init__(self, make, model, mileage, price)
+        super().__init__(make, model, mileage, price)
         
         # Initialize the __doors attribute.
         self.__doors = doors
@@ -27,3 +27,9 @@ class Car(Automobile):
 
     def get_doors(self):
         return self.__doors
+    
+    def __str__(self):
+        output = super().__str__() + '\n'
+        output += f'{self.__doors}'
+
+        return output

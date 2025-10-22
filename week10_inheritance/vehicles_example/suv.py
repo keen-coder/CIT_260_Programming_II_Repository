@@ -4,7 +4,7 @@ from automobile import Automobile
 # is a subclass of the Automobile class.
 
 class SUV(Automobile):
-    # The __init__ method caccepts arguments for the
+    # The __init__ method accepts arguments for the
     # SUV's make, model, mileage, price, and passenger
     # capacity.
     
@@ -12,7 +12,7 @@ class SUV(Automobile):
         # Call the superclass's __init__ method and pass
         # the required arguments. Note that we also have
         # to pass self as an argument.
-        super().__init__(self, make, model, mileage, price)
+        super().__init__(make, model, mileage, price)
         
         # Initialize the __pass_cap attribute.
         self.__pass_cap = pass_cap
