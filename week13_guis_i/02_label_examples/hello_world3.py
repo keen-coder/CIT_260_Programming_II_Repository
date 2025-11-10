@@ -16,7 +16,7 @@ class MyGUI:
 
         # Call both Label widgets' pack method.
         self.label1.pack(side='left')
-        self.label2.pack(side='left')
+        self.label2.pack(side='right')
 
         # Enter the tkinter main loop.
         tk.mainloop()

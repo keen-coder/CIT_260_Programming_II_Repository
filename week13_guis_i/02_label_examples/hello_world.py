@@ -9,9 +9,8 @@ class MyGUI:
 
         # Create a Label widget containing the
         # text 'Hello World!'
-        self.label = tk.Label(self.main_window,
-                                   text='Hello World!')
-
+        self.label = tk.Label(self.main_window, text='Hello World!')
+        
         # Call the Label widget's pack method.
         self.label.pack()
 

@@ -10,6 +10,11 @@ class MyGUI:
         # Display a title.
         self.main_window.title('My First GUI')
 
+        self.main_window.geometry('300x500')
+
+        # Make the window 85% transparent
+        self.main_window.attributes(alpha=0.85)
+
         # Enter the tkinter main loop.
         tk.mainloop()
 

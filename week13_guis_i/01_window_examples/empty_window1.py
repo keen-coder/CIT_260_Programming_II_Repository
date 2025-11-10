@@ -1,5 +1,6 @@
 # This program displays an empty window.
 
+# import tkinter as tk
 import tkinter as tk
 
 def main():
