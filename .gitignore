@@ -4,4 +4,5 @@ pas/
 class_programs/
 autograder/
 grading/
+sandbox/
 __pycache__/
