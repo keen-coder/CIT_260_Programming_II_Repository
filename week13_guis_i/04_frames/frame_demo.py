@@ -46,7 +46,7 @@ class MyGUI:
 
         # Yes, we have to pack the frames too!
         self.top_frame.pack()
-        self.bottom_frame.pack()
+        self.bottom_frame.pack(padx=30, pady=30)
 
         # Enter the tkinter main loop.
         tk.mainloop()

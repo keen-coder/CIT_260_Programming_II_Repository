@@ -12,14 +12,14 @@ class KiloConverterGUI:
         self.main_window = tk.Tk()
 
         # Create two frames to group widgets.
-        self.top_frame = tk.Frame()
-        self.bottom_frame = tk.Frame()
+        self.top_frame = tk.Frame(self.main_window)
+        self.bottom_frame = tk.Frame(self.main_window)
 
         # Create the widgets for the top frame.
         self.prompt_label = tk.Label(self.top_frame,
                     text='Enter a distance in kilometers:')
         self.kilo_entry = tk.Entry(self.top_frame,
-                                        width=10)
+                                        width=20)
 
         # Pack the top frame's widgets.
         self.prompt_label.pack(side='left')
@@ -54,11 +54,10 @@ class KiloConverterGUI:
         # Convert kilometers to miles.
         miles = kilo * 0.6214
 
+        result = str(kilo) + ' kilometers is equal to ' + str(miles) + ' miles.'
+
         # Display the results in an info dialog box.
-        tkmsg.showinfo('Results',
-                                    str(kilo) +
-                                    ' kilometers is equal to ' +
-                                    str(miles) + ' miles.')
+        tkmsg.showinfo('Results', result)
 
 # Create an instance of the KiloConverterGUI class.
 if __name__ == '__main__':

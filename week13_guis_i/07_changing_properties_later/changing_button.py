@@ -27,6 +27,7 @@ class MyGUI:
     
     def change_color(self):
         if self.color == 'red':
+
             self.my_button.config(bg='green')
             self.color = 'green'
         else:

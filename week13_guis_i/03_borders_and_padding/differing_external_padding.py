@@ -19,7 +19,7 @@ class MyGUI:
 
         # Use different amounts of padding for label 2
         self.label1.pack(padx=20, pady=20)
-        self.label2.pack(padx=(5, 10), pady=(5, 100))
+        self.label2.pack(padx=(5, 20), pady=(5, 100))
 
         # Enter the tkinter main loop.
         tk.mainloop()

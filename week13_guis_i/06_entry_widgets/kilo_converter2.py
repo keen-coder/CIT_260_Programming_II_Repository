@@ -11,9 +11,9 @@ class KiloConverterGUI:
         self.main_window = tkinter.Tk()
 
         # Create three frames to group widgets.
-        self.top_frame = tkinter.Frame()
-        self.mid_frame = tkinter.Frame()
-        self.bottom_frame = tkinter.Frame()
+        self.top_frame = tkinter.Frame(self.main_window)
+        self.mid_frame = tkinter.Frame(self.main_window)
+        self.bottom_frame = tkinter.Frame(self.main_window)
 
         # Create the widgets for the top frame.
         self.prompt_label = tkinter.Label(self.top_frame,

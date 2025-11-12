@@ -15,8 +15,8 @@ class MyGUI:
         # do_something method should be executed when
         # the user clicks the Button.
         self.my_button = tk.Button(self.main_window,
-                                        text='Click Me!',
-                                        command=self.do_something)
+                                text='Click Me!',
+                                command=self.do_something)
 
         # Pack the Button.
         self.my_button.pack()
